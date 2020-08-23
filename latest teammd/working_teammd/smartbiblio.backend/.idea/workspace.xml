@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3ccafc8-8dc5-411e-94e8-6c274b02d51f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi/mainpageRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/appi/mainpageRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi/searchRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/appi/searchRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainpageContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainpageContent.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZPPtXPVYKLWT4HUoX9J6f50z47" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="autorizationRouter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/appi/autorizationRouter.js" working-dir="$PROJECT_DIR$/appi">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.autorizationRouter.js" />
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3ccafc8-8dc5-411e-94e8-6c274b02d51f" name="Default Changelist" comment="" />
+      <created>1584737970874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584737970874</updated>
+      <workItem from="1584737972250" duration="51207000" />
+      <workItem from="1584829337663" duration="41050000" />
+    </task>
+    <task id="LOCAL-00001" summary="nothing">
+      <created>1584740274042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584740274042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="registration added">
+      <created>1584752249828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584752249828</updated>
+    </task>
+    <task id="LOCAL-00003" summary="registration added">
+      <created>1584766997862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584766997862</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Email verification added. Registration system updated. DB updated">
+      <created>1584793659468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584793659468</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DB for Serega">
+      <created>1584806256068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584806256068</updated>
+    </task>
+    <task id="LOCAL-00006" summary="searchRouter (untested) added">
+      <created>1584813320449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584813320449</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Final (~alpha version)">
+      <created>1584884056677</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584884056677</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final (~alpha version) + pythonConnection">
+      <created>1584885231830</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584885231830</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nothing" />
+    <MESSAGE value="registration added" />
+    <MESSAGE value="service authentication added" />
+    <MESSAGE value="Email verification added. Registration system updated. DB updated" />
+    <MESSAGE value="DB for Serega" />
+    <MESSAGE value="searchRouter (untested) added" />
+    <MESSAGE value="Final (~alpha version)" />
+    <MESSAGE value="Final (~alpha version) + pythonConnection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final (~alpha version) + pythonConnection" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584741856931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584741856931" />
+    <state x="496" y="98" key="#server.js" timestamp="1584739312129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="98" key="#server.js/0.0.1536.824@0.0.1536.824" timestamp="1584739312129" />
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1584885230578">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584885230578" />
+    <state x="193" y="64" key="DiffContextDialog" timestamp="1584806010383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1584806010383" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584824022165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584824022165" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1584875470599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584875470599" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1584875470599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584875470599" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1584875470599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584875470599" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1584875470599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584875470599" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584824023379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584824023379" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1584824023379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584824023379" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1584824023379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584824023379" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1584824023379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584824023379" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right" timestamp="1584824023380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1584824023380" />
+    <state x="628" y="134" key="RollbackChangesDialog" timestamp="1584875329242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="628" y="134" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584875329242" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584885240741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584885240741" />
+    <state x="688" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1584806028588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="688" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1584806028588" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584739114875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584739114875" />
+    <state x="516" y="203" key="git4idea.merge.GitPullDialog" timestamp="1584886287365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1584886287365" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584832281138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584832281138" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584812674697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584812674697" />
+  </component>
+</project>

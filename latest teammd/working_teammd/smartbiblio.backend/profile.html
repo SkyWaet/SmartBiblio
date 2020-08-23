@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" action="http://localhost:4001/appi/app/search" >
+    <div class="row">
+        <div class="col-md align-items-end">
+            <div class="form-group">
+                <label for="genre">Жанр</label>
+                <div class="form-field">
+                    <div class="select-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="genreDropdown" id="genre" class="form-control">
+                            <option value="any">Любой</option>
+                            <option value="comm">Commercial</option>
+                            <option value="">Office</option>
+                            <option value="">Residential</option>
+                            <option value="">Villa</option>
+                            <option value="">Condominium</option>
+                            <option value="">Apartment</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md align-items-end">
+            <div class="form-group">
+                <label for="#">Название книги</label>
+                <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name = "bookTitle" type="text" class="form-control" placeholder="City/Locality Name">
+                </div>
+            </div>
+        </div>
+        <div class="col-md align-items-end">
+            <div class="form-group">
+                <label for="#">Издательство</label>
+                <div class="form-field">
+                    <div class="select-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="publishing" id="" class="form-control">
+                            <option value="">Любое</option>
+                            <option value="">Jonh Doe</option>
+                            <option value="">Doe Mags</option>
+                            <option value="">Kenny Scott</option>
+                            <option value="">Emily Storm</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md align-items-end">
+            <div class="form-group">
+                <label for="#">Мин. цена</label>
+                <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name="minPrice" type="text" class="form-control" placeholder="City/Locality Name">
+                </div>
+            </div>
+        </div>
+        <div class="col-md align-items-end">
+            <div class="form-group">
+                <label for="#">Макс. цена</label>
+                <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name="maxPrice" type="text" class="form-control" placeholder="City/Locality Name">
+                </div>
+            </div>
+        </div>
+        <div class="col-md align-items-end">
+            <div class="form-group">
+                <label for="#">Новинки</label>
+                <div class="form-field">
+                    <div class="select-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="newBooks" id="" class="form-control">
+                            <option value="false"></option>
+                            <option value="true">Да</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md align-items-end">
+            <div class="form-group">
+                <label for="#">Макс. число страниц</label>
+                <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name = "maxPages" type="text" class="form-control" placeholder="Min Area">
+                </div>
+            </div>
+        </div>
+        <div class="col-md align-self-end">
+            <div class="form-group">
+                <div class="form-field">
+                    <input type="submit" value="Найти" class="form-control btn btn-primary">
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
