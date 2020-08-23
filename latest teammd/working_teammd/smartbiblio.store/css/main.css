@@ -1,0 +1,84 @@
+body {
+  background-color: #f2f2f2;
+  height: 100%;
+  overflow: hidden;
+}
+
+.auto_div {
+  height: 560px;
+}
+
+@media (max-width: 767.98px) {
+.ftco-section {
+	padding: 1em;
+}
+.auto_div {
+  min-height: 100%;
+}
+.contact-form {
+	padding-left: 1em !important;
+	padding-right: 1em !important;
+}
+.reg_sec {
+	padding-top: 1em !important;
+	margin-top: 0;
+}
+}
+@media (max-width: 1160px) {
+.contact-form {
+	padding-left: 1em !important;
+	padding-right: 1em !important;
+}
+}
+
+.sign_in_h2 {
+	padding-top: 2em !important;
+	padding-bottom: 0;
+}
+
+.auto_but {
+	border-radius: 5px;
+}
+
+.contact-form {
+	padding-left: 5em;
+	padding-right: 5em;
+} 
+
+.txt2 {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.txt1 {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #999999;
+}
+
+.input100:focus {
+	border: 1px solid #00ad5f;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.reg_h2 {
+	padding-top: 1em !important;
+}
+
+.a_reg.active {
+	border-radius: 5px !important;
+	background-color: #29a746 !important;
+}
+
+.ftco-section{
+	margin-top: 2em;
+	padding-top: 1em !important;
+}
+.reg_sec {
+	padding-top: 1em !important;
+	margin-top: 1em;
+}
+

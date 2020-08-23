@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>SmartBiblio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/ionicons.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161554014-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161554014-1');
+  </script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Smart<span>Biblio</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Меню
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item active"><a href="property.html" class="nav-link">Каталог</a></li>
+          <li class="nav-item"><a href="new_items.html" class="nav-link">Новинки</a></li>
+          <li class="nav-item"><a href="collections.html" class="nav-link">Коллекции</a></li>
+          <li class="nav-item"><a href="history.html" class="nav-link">Истории</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+          <li class="nav-item cta"><a href="autorization.html" class="nav-link ml-lg-2"><span class="icon-user"></span> Войти</a></li>
+          <li class="nav-item cta cta-colored"><a href="registration.html" class="nav-link"><span class="icon-pencil"></span> Регистрация</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-wrap" style="background-image: url('images/bg_1.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text align-items-center justify-content-center">
+        <div class="col-md-9 ftco-animate text-center">
+          <h1 class="mb-3 bread">Каталог</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="ftco-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 search-wrap">
+          <h2 class="heading h5 d-flex align-items-center pr-4"><span class="ion-ios-search mr-3"></span> Найди свою
+            книгу</h2>
+          <form class="search-property" action="catalog.html" method="GET">
+            <div class="row">
+              <div class="col-md align-items-end" hidden="true">
+                <div class="form-group">
+                  <label for="genre">Жанр</label>
+                  <div class="form-field">
+                    <div class="select-wrap">
+                      <input list="dist" class="form-control" name="genre" id="genreList" placeholder=""><br>
+                      <datalist id="dist">
+                        <option value="Любой" />
+                      </datalist>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md align-items-end">
+                <div class="form-group">
+                  <label for="#">Автор</label>
+                  <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name="author" type="text" class="form-control" placeholder="Автор">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md align-items-end">
+                <div class="form-group">
+                  <label for="#">Название книги</label>
+                  <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name="bookTitle" type="text" class="form-control" placeholder="City/Locality Name">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md align-items-end">
+                <div class="form-group">
+                  <label for="#">Мин. цена</label>
+                  <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name="minPrice" type="text" class="form-control" placeholder="City/Locality Name">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md align-items-end">
+                <div class="form-group">
+                  <label for="#">Макс. цена</label>
+                  <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name="maxPrice" type="text" class="form-control" placeholder="City/Locality Name">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md align-items-end">
+                <div class="form-group" hidden="true">
+                  <label for="#">Новинки</label>
+                  <div class="form-field">
+                    <div class="select-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="newBooks" id="" class="form-control">
+                        <option value="false">Нет</option>
+                        <option value="true">Да</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md align-items-end">
+                <div class="form-group">
+                  <label for="#">Макс. число страниц</label>
+                  <div class="form-field">
+                    <div class="icon"><span class="icon-pencil"></span></div>
+                    <input name="maxPages" type="text" class="form-control" placeholder="Min Area">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md align-self-end">
+                <div class="form-group">
+                  <div class="form-field">
+                    <input type="submit" value="Найти" class="form-control btn btn-primary" id="submit-button">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section bg-light">
+    <div class="container">
+      <div class="row" id="searchResults">
+
+
+      </div>
+        <div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul id = "arrows">
+                <li><a href="#" id="leftarrow" >&lt;</a></li>
+                <li class="active" name="activeLi" id="li_id1" ><a href="#" id="id1">1</a></li>
+                <li id="li_id2"><a href="#" id="id2">2</a></li>
+                <li id="li_id3"><a href="#" id="id3">3</a></li>
+                <li id="li_id4"><a href="#" id="id4">4</a></li>
+                <li id="li_id5"><a href="#" id="id5">5</a></li>
+                <li><a href="#" id="rightarrow">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2 footer_logo">Smart<span>Biblio</span></h2>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+            <h2 class="ftco-heading-2">Меню</h2>
+            <ul class="list-unstyled">
+              <li><a href="catalog.html" class="py-2 d-block">Каталог</a></li>
+              <li><a href="new_items.html" class="py-2 d-block">Новинки</a></li>
+              <li><a href="collections.html" class="py-2 d-block">Коллекции</a></li>
+              <li><a href="history.html" class="py-2 d-block">Истории</a></li>
+              <li><a href="contact.html" class="py-2 d-block">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2"><a href="#" class="py-2 d-block">Личный кабинет</a></h2>
+          </div>
+        </div>
+        <div class="col-md">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p>
+            <small class="block">&copy; 2020 SmartBiblio. All Rights Reserved.</small>
+            <small class="block">Designed by Team MD</small>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" /></svg></div>
+
+  <script src="server/catalogContent.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
